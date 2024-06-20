@@ -1,0 +1,70 @@
+.financial-solutions-expert-profile {
+  display: flex;
+  margin: 0 auto;
+  padding: 48px 79px;
+  justify-content: space-evenly;
+}
+
+.financial-solutions-expert-style {
+  max-width: 630px;
+  padding: 0 19px;
+  margin: 0;
+  font: 400 16px/22px Roboto, sans-serif;
+}
+
+.contact-info-container1 {
+  width: 25%;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.svg-container2 {
+  background: url(../img/phone.svg) no-repeat;
+  display: flex;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+}
+
+.svg-container3 {
+  background: url(../img/mail.svg) no-repeat;
+  display: flex;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+}
+
+.contact-info-text {
+  padding: 0;
+  margin: 0;
+  margin-left: 7px;
+}
+
+.contact-info-section {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .financial-solutions-expert-profile {
+    flex-direction: column-reverse;
+    padding: 32px 15px;
+  }
+
+  .financial-solutions-expert-style {
+    margin-top: 32px;
+    padding: 0;
+  }
+
+  .contact-info-container1 {
+    width: 25%;
+  }
+
+  .contact-info-section {
+    margin-top: 24px;
+  }
+}

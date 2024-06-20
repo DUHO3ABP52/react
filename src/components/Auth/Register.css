@@ -1,0 +1,120 @@
+.registration-form-container {
+  min-width: 300px;
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 16px 15px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.registration-title {
+  padding: 0;
+  margin: 0;
+  font: 400 20px Roboto, sans-serif;
+  color: #151317;
+  white-space: pre-wrap;
+}
+
+.email-container {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.full-name-container {
+  width: 100%;
+}
+
+.name-text-display-style {
+  padding: 0;
+  margin: 0;
+  font: 400 16px Roboto, sans-serif;
+  color: #151317;
+  white-space: pre-wrap;
+}
+
+.fullwidth-container {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.input-field-styled-with-border-radius {
+  width: 100%;
+  height: 48px;
+  padding-left: 15px;
+  font: 400 14px Roboto, sans-serif;
+  background: #f8f8f8;
+  border: none;
+  border-radius: 8px;
+}
+
+.input-style-f62::placeholder {
+  color: #808185;
+}
+
+.email-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: 48px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 8px;
+  background: #f8f8f8;
+  border: 1px solid #ff6161;
+  border-radius: 8px;
+}
+
+.email-text-display-style {
+  padding: 0;
+  margin: 0;
+  font: 400 14px Roboto, sans-serif;
+  color: #808185;
+  white-space: pre-wrap;
+}
+
+.error-text-notification {
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  font: 400 10px Roboto, sans-serif;
+  color: #ff6161;
+  white-space: pre-wrap;
+}
+
+.flexbox-container-with-svg {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  padding-right: 8px;
+  padding-left: 15px;
+  margin-top: 8px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.svg-container {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  min-width: 468px;
+  height: 48px;
+  margin-top: 24px;
+  font: 400 16px Roboto, sans-serif;
+  color: white;
+  cursor: pointer;
+  background: #512689;
+  border: none;
+  border-radius: 8px;
+}
